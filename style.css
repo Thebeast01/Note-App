@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(125deg, rgb(42, 42, 42), rgb(65, 63, 65));
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: linear-gradient(240deg, cyan, purple);
+    color: white;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.button span {
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background: linear-gradient(-40deg, purple, cyan);
+
+
+}
+
+.note {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(5, 5, 5);
+}
+
+.note img {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
